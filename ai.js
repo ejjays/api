@@ -1,107 +1,270 @@
-console.warn("*********************************************************************************************************");
-console.warn("*                                                                                                       *");
-console.warn("*                                     IMPORTANT COPYRIGHT NOTICE AND WARNING                            *");
-console.warn("*                                                                                                       *");
-console.warn("*   You are about to use a script that is copyrighted and protected by international copyright laws and  *");
-console.warn("*   treaties. This script, including all of its contents, structure, design, and functionality, is the   *");
-console.warn("*   exclusive property of its author. Any unauthorized use, copying, distribution, modification, or      *");
-console.warn("*   reproduction of this script, in whole or in part, is strictly prohibited and subject to severe civil *");
-console.warn("*   and criminal penalties. Unauthorized use of this script will be prosecuted to the fullest extent     *");
-console.warn("*   possible under the law. If you have not been authorized by the author to use this script, please     *");
-console.warn("*   delete it immediately and report any incidents of unauthorized access or use to the author at        *");
-console.warn("*   https://github.com/ejjays.                                                                           *");
-console.warn("*                                                                                                       *");
-console.warn("*   This script is intended for the exclusive use of its authorized users. Unauthorized access,          *");
-console.warn("*   duplication, dissemination, or exploitation of this script and its components is strictly forbidden. *");
-console.warn("*   Violators will face legal consequences, including but not limited to lawsuits, financial penalties,  *");
-console.warn("*   and criminal charges. Any attempt to reverse engineer, decompile, disassemble, or otherwise extract  *");
-console.warn("*   the source code, algorithms, or trade secrets contained within this script is expressly prohibited.  *");
-console.warn("*                                                                                                       *");
-console.warn("*   The author reserves all rights not expressly granted herein. By continuing to use this script, you   *");
-console.warn("*   acknowledge that you have read this notice, understand its terms, and agree to comply with all       *");
-console.warn("*   copyright laws and the terms of use set forth herein. Failure to comply with these terms will result *");
-console.warn("*   in appropriate legal action, including but not limited to immediate termination of your rights to    *");
-console.warn("*   use this script and liability for damages.                                                          *");
-console.warn("*                                                                                                       *");
-console.warn("*   If you are in doubt about whether you have been granted permission to use this script, or if you     *");
-console.warn("*   have any questions regarding your rights and obligations under this copyright notice, please contact *");
-console.warn("*   the author immediately at https://github.com/ejjays for clarification.                              *");
-console.warn("*                                                                                                       *");
-console.warn("*   COPYRIGHT © 2024 ejjays. All rights reserved. Unauthorized use, reproduction, or distribution of     *");
-console.warn("*   this script, or any portion thereof, is strictly prohibited and will be prosecuted to the fullest    *");
-console.warn("*   extent of the law.                                                                                   *");
-console.warn("*                                                                                                       *");
-console.warn("*   Unauthorized use, access, or distribution of this script may also result in immediate revocation of  *");
-console.warn("*   your rights to use this script, as well as additional damages and penalties to be determined by the  *");
-console.warn("*   courts. The author of this script takes the protection of intellectual property very seriously and   *");
-console.warn("*   will take all necessary steps to safeguard these rights.                                             *");
-console.warn("*                                                                                                       *");
-console.warn("*   By using this script, you agree to indemnify and hold the author harmless from any and all claims,   *");
-console.warn("*   damages, liabilities, costs, and expenses, including but not limited to attorney's fees, arising     *");
-console.warn("*   from or related to your use of the script in violation of this copyright notice. You also agree to   *");
-console.warn("*   cooperate with the author in any investigations or legal actions taken to enforce these rights.      *");
-console.warn("*                                                                                                       *");
-console.warn("*   Please be aware that any violation of this copyright notice will be regarded as a serious offense    *");
-console.warn("*   and will be pursued vigorously to the fullest extent allowed by law. The author reserves the right   *");
-console.warn("*   to update and modify this copyright notice at any time without prior notice. It is your              *");
-console.warn("*   responsibility to ensure that you are in compliance with the most current version of this notice.    *");
-console.warn("*                                                                                                       *");
-console.warn("*   The author appreciates your understanding and cooperation in protecting intellectual property rights.*");
-console.warn("*   Thank you for respecting the hard work and creativity that goes into developing and maintaining this *");
-console.warn("*   script.                                                                                             *");
-console.warn("*                                                                                                       *");
-console.warn("*   This copyright notice serves as a legal agreement between the user and the author. By using this     *");
-console.warn("*   script, you agree to be bound by the terms and conditions outlined in this notice. Any breach of     *");
-console.warn("*   these terms will result in immediate termination of your rights to use the script and may result in  *");
-console.warn("*   further legal action.                                                                               *");
-console.warn("*                                                                                                       *");
-console.warn("*   The author reserves the right to monitor the use of this script to ensure compliance with this       *");
-console.warn("*   copyright notice. Any unauthorized attempts to access or use this script, or to bypass any security  *");
-console.warn("*   measures in place, will be detected and logged.                                                      *");
-console.warn("*                                                                                                       *");
-console.warn("*   The author also reserves the right to seek injunctive relief in addition to any other remedies       *");
-console.warn("*   available at law or in equity, in order to protect their intellectual property rights. Any failure   *");
-console.warn("*   by the author to enforce any part of this copyright notice shall not be deemed a waiver of the       *");
-console.warn("*   author's rights to enforce this notice at a later date.                                              *");
-console.warn("*                                                                                                       *");
-console.warn("*   This copyright notice shall be governed by and construed in accordance with the laws of the          *");
-console.warn("*   jurisdiction in which the author resides, without regard to its conflicts of law principles.         *");
-console.warn("*   Any legal actions or proceedings arising out of or related to this copyright notice shall be         *");
-console.warn("*   brought exclusively in the courts of the jurisdiction in which the author resides.                   *");
-console.warn("*                                                                                                       *");
-console.warn("*   If any provision of this copyright notice is found to be invalid or unenforceable by a court of      *");
-console.warn("*   competent jurisdiction, such provision shall be deemed severed from the notice and the remaining     *");
-console.warn("*   provisions shall remain in full force and effect.                                                    *");
-console.warn("*                                                                                                       *");
-console.warn("*   The headings in this copyright notice are for convenience only and shall not affect the              *");
-console.warn("*   interpretation of any terms.                                                                        *");
-console.warn("*                                                                                                       *");
-console.warn("*   This copyright notice constitutes the entire agreement between the user and the author regarding     *");
-console.warn("*   the use of this script and supersedes all prior or contemporaneous communications and proposals,     *");
-console.warn("*   whether oral, written, or electronic, between the user and the author with respect to this script.   *");
-console.warn("*                                                                                                       *");
-console.warn("*   The author of this script is committed to ensuring the protection and confidentiality of any         *");
-console.warn("*   personal information that may be collected in connection with the use of this script. Any such       *");
-console.warn("*   information will be handled in accordance with applicable privacy laws and the author's privacy      *");
-console.warn("*   policy, which is available upon request.                                                            *");
-console.warn("*                                                                                                       *");
-console.warn("*   For any questions, concerns, or requests related to this copyright notice or the use of this script, *");
-console.warn("*   please contact the author at https://github.com/ejjays. The author is committed to addressing any    *");
-console.warn("*   issues promptly and thoroughly to ensure the best possible experience for authorized users of this   *");
-console.warn("*   script.                                                                                             *");
-console.warn("*                                                                                                       *");
-console.warn("*********************************************************************************************************");
-
-(function() {
-    var js, fs, d = document, id = "tars-widget-script", b = "https://tars-file-upload.s3.amazonaws.com/bulb/";
-    if (!d.getElementById(id)) {
-        js = d.createElement("script");
-        js.id = id;
-        js.type = "text/javascript";
-        js.src = b + "js/widget.js";
-        fs = d.getElementsByTagName("script")[0];
-        fs.parentNode.insertBefore(js, fs);
+function _0x28a1() {
+  var _0x9cb73d = [
+    "<p>*\x20\x20\x20available\x20at\x20law\x20or\x20in\x20equity,\x20in\x20order\x20to\x20protect\x20their\x20intellectual\x20property\x20rights.\x20Any\x20failure\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20by\x20the\x20author\x20to\x20enforce\x20any\x20part\x20of\x20this\x20copyright\x20notice\x20shall\x20not\x20be\x20deemed\x20a\x20waiver\x20of\x20the\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20these\x20terms\x20will\x20result\x20in\x20immediate\x20termination\x20of\x20your\x20rights\x20to\x20use\x20the\x20script\x20and\x20may\x20result\x20in\x20\x20*</p>",
+    "<p>*\x20\x20\x20competent\x20jurisdiction,\x20such\x20provision\x20shall\x20be\x20deemed\x20severed\x20from\x20the\x20notice\x20and\x20the\x20remaining\x20\x20\x20\x20\x20*</p>",
+    "getElementById",
+    "488332hKFEbK",
+    "<p>*\x20\x20\x20responsibility\x20to\x20ensure\x20that\x20you\x20are\x20in\x20compliance\x20with\x20the\x20most\x20current\x20version\x20of\x20this\x20notice.\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20cooperate\x20with\x20the\x20author\x20in\x20any\x20investigations\x20or\x20legal\x20actions\x20taken\x20to\x20enforce\x20these\x20rights.\x20\x20\x20\x20\x20\x20*</p>",
+    "70950zAmqhQ",
+    "123254UkjKDT",
+    "<p>*\x20\x20\x20possible\x20under\x20the\x20law.\x20If\x20you\x20have\x20not\x20been\x20authorized\x20by\x20the\x20author\x20to\x20use\x20this\x20script,\x20please\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20If\x20you\x20are\x20in\x20doubt\x20about\x20whether\x20you\x20have\x20been\x20granted\x20permission\x20to\x20use\x20this\x20script,\x20or\x20if\x20you\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20The\x20author\x20appreciates\x20your\x20understanding\x20and\x20cooperation\x20in\x20protecting\x20intellectual\x20property\x20rights.*</p>",
+    "<p>*\x20\x20\x20exclusive\x20property\x20of\x20its\x20author.\x20Any\x20unauthorized\x20use,\x20copying,\x20distribution,\x20modification,\x20or\x20\x20\x20\x20\x20\x20*</p>",
+    "5891792lKVHVC",
+    "type",
+    "592CrUOpX",
+    "<p>*\x20\x20\x20courts.\x20The\x20author\x20of\x20this\x20script\x20takes\x20the\x20protection\x20of\x20intellectual\x20property\x20very\x20seriously\x20and\x20\x20\x20*</p>",
+    "tars-widget-script",
+    "src",
+    "<p>*\x20\x20\x20further\x20legal\x20action.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20have\x20any\x20questions\x20regarding\x20your\x20rights\x20and\x20obligations\x20under\x20this\x20copyright\x20notice,\x20please\x20contact\x20*</p>",
+    "<p>*\x20\x20\x20and\x20criminal\x20charges.\x20Any\x20attempt\x20to\x20reverse\x20engineer,\x20decompile,\x20disassemble,\x20or\x20otherwise\x20extract\x20\x20*</p>",
+    "<p>*\x20\x20\x20this\x20script,\x20or\x20any\x20portion\x20thereof,\x20is\x20strictly\x20prohibited\x20and\x20will\x20be\x20prosecuted\x20to\x20the\x20fullest\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20script,\x20you\x20agree\x20to\x20be\x20bound\x20by\x20the\x20terms\x20and\x20conditions\x20outlined\x20in\x20this\x20notice.\x20Any\x20breach\x20of\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20treaties.\x20This\x20script,\x20including\x20all\x20of\x20its\x20contents,\x20structure,\x20design,\x20and\x20functionality,\x20is\x20the\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20If\x20any\x20provision\x20of\x20this\x20copyright\x20notice\x20is\x20found\x20to\x20be\x20invalid\x20or\x20unenforceable\x20by\x20a\x20court\x20of\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*********************************************************************************************************</p>",
+    "<p>*\x20\x20\x20in\x20appropriate\x20legal\x20action,\x20including\x20but\x20not\x20limited\x20to\x20immediate\x20termination\x20of\x20your\x20rights\x20to\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20interpretation\x20of\x20any\x20terms.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "text/javascript",
+    "script",
+    "<p>*\x20\x20\x20policy,\x20which\x20is\x20available\x20upon\x20request.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "811975WUlYrm",
+    "<p>*\x20\x20\x20The\x20headings\x20in\x20this\x20copyright\x20notice\x20are\x20for\x20convenience\x20only\x20and\x20shall\x20not\x20affect\x20the\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "insertBefore",
+    "<p>*\x20\x20\x20please\x20contact\x20the\x20author\x20at\x20https://github.com/ejjays.\x20The\x20author\x20is\x20committed\x20to\x20addressing\x20any\x20\x20\x20\x20*</p>",
+    "2148755uyfoue",
+    "<p>*\x20\x20\x20COPYRIGHT\x20©\x202024\x20ejjays.\x20All\x20rights\x20reserved.\x20Unauthorized\x20use,\x20reproduction,\x20or\x20distribution\x20of\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20By\x20using\x20this\x20script,\x20you\x20agree\x20to\x20indemnify\x20and\x20hold\x20the\x20author\x20harmless\x20from\x20any\x20and\x20all\x20claims,\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20script.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20your\x20rights\x20to\x20use\x20this\x20script,\x20as\x20well\x20as\x20additional\x20damages\x20and\x20penalties\x20to\x20be\x20determined\x20by\x20the\x20\x20*</p>",
+    "<p>*\x20\x20\x20damages,\x20liabilities,\x20costs,\x20and\x20expenses,\x20including\x20but\x20not\x20limited\x20to\x20attorney\x27s\x20fees,\x20arising\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20Unauthorized\x20use,\x20access,\x20or\x20distribution\x20of\x20this\x20script\x20may\x20also\x20result\x20in\x20immediate\x20revocation\x20of\x20\x20*</p>",
+    "<p>*\x20\x20\x20For\x20any\x20questions,\x20concerns,\x20or\x20requests\x20related\x20to\x20this\x20copyright\x20notice\x20or\x20the\x20use\x20of\x20this\x20script,\x20*</p>",
+    "<p>*\x20\x20\x20issues\x20promptly\x20and\x20thoroughly\x20to\x20ensure\x20the\x20best\x20possible\x20experience\x20for\x20authorized\x20users\x20of\x20this\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20Thank\x20you\x20for\x20respecting\x20the\x20hard\x20work\x20and\x20creativity\x20that\x20goes\x20into\x20developing\x20and\x20maintaining\x20this\x20*</p>",
+    "getElementsByTagName",
+    "<p>*\x20\x20\x20author\x27s\x20rights\x20to\x20enforce\x20this\x20notice\x20at\x20a\x20later\x20date.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20The\x20author\x20reserves\x20the\x20right\x20to\x20monitor\x20the\x20use\x20of\x20this\x20script\x20to\x20ensure\x20compliance\x20with\x20this\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20and\x20criminal\x20penalties.\x20Unauthorized\x20use\x20of\x20this\x20script\x20will\x20be\x20prosecuted\x20to\x20the\x20fullest\x20extent\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20The\x20author\x20reserves\x20all\x20rights\x20not\x20expressly\x20granted\x20herein.\x20By\x20continuing\x20to\x20use\x20this\x20script,\x20you\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20This\x20copyright\x20notice\x20constitutes\x20the\x20entire\x20agreement\x20between\x20the\x20user\x20and\x20the\x20author\x20regarding\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20IMPORTANT\x20COPYRIGHT\x20NOTICE\x20AND\x20WARNING\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20This\x20copyright\x20notice\x20shall\x20be\x20governed\x20by\x20and\x20construed\x20in\x20accordance\x20with\x20the\x20laws\x20of\x20the\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "js/widget.js",
+    "write",
+    "<p>*\x20\x20\x20and\x20will\x20be\x20pursued\x20vigorously\x20to\x20the\x20fullest\x20extent\x20allowed\x20by\x20law.\x20The\x20author\x20reserves\x20the\x20right\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20Please\x20be\x20aware\x20that\x20any\x20violation\x20of\x20this\x20copyright\x20notice\x20will\x20be\x20regarded\x20as\x20a\x20serious\x20offense\x20\x20\x20\x20*</p>",
+    "parentNode",
+    "<p>*\x20\x20\x20duplication,\x20dissemination,\x20or\x20exploitation\x20of\x20this\x20script\x20and\x20its\x20components\x20is\x20strictly\x20forbidden.\x20*</p>",
+    "<p>*\x20\x20\x20use\x20this\x20script\x20and\x20liability\x20for\x20damages.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20acknowledge\x20that\x20you\x20have\x20read\x20this\x20notice,\x20understand\x20its\x20terms,\x20and\x20agree\x20to\x20comply\x20with\x20all\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20Any\x20legal\x20actions\x20or\x20proceedings\x20arising\x20out\x20of\x20or\x20related\x20to\x20this\x20copyright\x20notice\x20shall\x20be\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "6036ktUSsm",
+    "<p>*\x20\x20\x20https://github.com/ejjays.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20the\x20author\x20immediately\x20at\x20https://github.com/ejjays\x20for\x20clarification.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20This\x20copyright\x20notice\x20serves\x20as\x20a\x20legal\x20agreement\x20between\x20the\x20user\x20and\x20the\x20author.\x20By\x20using\x20this\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20The\x20author\x20also\x20reserves\x20the\x20right\x20to\x20seek\x20injunctive\x20relief\x20in\x20addition\x20to\x20any\x20other\x20remedies\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "createElement",
+    "<p>*\x20\x20\x20This\x20script\x20is\x20intended\x20for\x20the\x20exclusive\x20use\x20of\x20its\x20authorized\x20users.\x20Unauthorized\x20access,\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+    "<p>*\x20\x20\x20The\x20author\x20of\x20this\x20script\x20is\x20committed\x20to\x20ensuring\x20the\x20protection\x20and\x20confidentiality\x20of\x20any\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>",
+  ];
+  _0x28a1 = function () {
+    return _0x9cb73d;
+  };
+  return _0x28a1();
+}
+function _0x1731(_0x5db552, _0x49100e) {
+  var _0x28a143 = _0x28a1();
+  return (
+    (_0x1731 = function (_0x173114, _0x29ece1) {
+      _0x173114 = _0x173114 - 0x71;
+      var _0x258dcc = _0x28a143[_0x173114];
+      return _0x258dcc;
+    }),
+    _0x1731(_0x5db552, _0x49100e)
+  );
+}
+var _0xea7d43 = _0x1731;
+(function (_0x5a865b, _0x5ec301) {
+  var _0x353cca = _0x1731,
+    _0x4dc3be = _0x5a865b();
+  while (!![]) {
+    try {
+      var _0x355e9e =
+        -parseInt(_0x353cca(0xa0)) / 0x1 +
+        -parseInt(_0x353cca(0x9c)) / 0x2 +
+        (parseInt(_0x353cca(0x8e)) / 0x3) * (-parseInt(_0x353cca(0xa7)) / 0x4) +
+        -parseInt(_0x353cca(0xb8)) / 0x5 +
+        -parseInt(_0x353cca(0x9f)) / 0x6 +
+        parseInt(_0x353cca(0x73)) / 0x7 +
+        parseInt(_0x353cca(0xa5)) / 0x8;
+      if (_0x355e9e === _0x5ec301) break;
+      else _0x4dc3be["push"](_0x4dc3be["shift"]());
+    } catch (_0x3e2c91) {
+      _0x4dc3be["push"](_0x4dc3be["shift"]());
     }
-})();
-
-window.tarsSettings = {"convid": "25E8bl"};
+  }
+})(_0x28a1, 0x31cf7),
+  document[_0xea7d43(0x86)](
+    "<p>*********************************************************************************************************</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x83)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20You\x20are\x20about\x20to\x20use\x20a\x20script\x20that\x20is\x20copyrighted\x20and\x20protected\x20by\x20international\x20copyright\x20laws\x20and\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0xb0)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xa4)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20reproduction\x20of\x20this\x20script,\x20in\x20whole\x20or\x20in\x20part,\x20is\x20strictly\x20prohibited\x20and\x20subject\x20to\x20severe\x20civil\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x80)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xa1)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20delete\x20it\x20immediately\x20and\x20report\x20any\x20incidents\x20of\x20unauthorized\x20access\x20or\x20use\x20to\x20the\x20author\x20at\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x8f)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x94)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x8a)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20Violators\x20will\x20face\x20legal\x20consequences,\x20including\x20but\x20not\x20limited\x20to\x20lawsuits,\x20financial\x20penalties,\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0xad)),
+  document["write"](
+    "<p>*\x20\x20\x20the\x20source\x20code,\x20algorithms,\x20or\x20trade\x20secrets\x20contained\x20within\x20this\x20script\x20is\x20expressly\x20prohibited.\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x81)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x8c)),
+  document["write"](
+    "<p>*\x20\x20\x20copyright\x20laws\x20and\x20the\x20terms\x20of\x20use\x20set\x20forth\x20herein.\x20Failure\x20to\x20comply\x20with\x20these\x20terms\x20will\x20result\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0xb3)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x8b)),
+  document["write"](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xa2)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xac)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x90)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x74)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xae)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20extent\x20of\x20the\x20law.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x79)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x77)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xa8)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20will\x20take\x20all\x20necessary\x20steps\x20to\x20safeguard\x20these\x20rights.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x75)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x78)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20from\x20or\x20related\x20to\x20your\x20use\x20of\x20the\x20script\x20in\x20violation\x20of\x20this\x20copyright\x20notice.\x20You\x20also\x20agree\x20to\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x9e)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x88)),
+  document["write"](_0xea7d43(0x87)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20to\x20update\x20and\x20modify\x20this\x20copyright\x20notice\x20at\x20any\x20time\x20without\x20prior\x20notice.\x20It\x20is\x20your\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document["write"](_0xea7d43(0x9d)),
+  document["write"](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xa3)),
+  document["write"](_0xea7d43(0x7c)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x76)),
+  document["write"](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x91)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xaf)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x99)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xab)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x7f)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20copyright\x20notice.\x20Any\x20unauthorized\x20attempts\x20to\x20access\x20or\x20use\x20this\x20script,\x20or\x20to\x20bypass\x20any\x20security\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20measures\x20in\x20place,\x20will\x20be\x20detected\x20and\x20logged.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document["write"](_0xea7d43(0x92)),
+  document["write"](_0xea7d43(0x96)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x98)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x7e)),
+  document["write"](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x84)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20jurisdiction\x20in\x20which\x20the\x20author\x20resides,\x20without\x20regard\x20to\x20its\x20conflicts\x20of\x20law\x20principles.\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document["write"](_0xea7d43(0x8d)),
+  document["write"](
+    "<p>*\x20\x20\x20brought\x20exclusively\x20in\x20the\x20courts\x20of\x20the\x20jurisdiction\x20in\x20which\x20the\x20author\x20resides.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document["write"](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xb1)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x9a)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20provisions\x20shall\x20remain\x20in\x20full\x20force\x20and\x20effect.\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0xb9)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xb4)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x82)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20the\x20use\x20of\x20this\x20script\x20and\x20supersedes\x20all\x20prior\x20or\x20contemporaneous\x20communications\x20and\x20proposals,\x20\x20\x20\x20\x20*</p>"
+  ),
+  document["write"](
+    "<p>*\x20\x20\x20whether\x20oral,\x20written,\x20or\x20electronic,\x20between\x20the\x20user\x20and\x20the\x20author\x20with\x20respect\x20to\x20this\x20script.\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x95)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20personal\x20information\x20that\x20may\x20be\x20collected\x20in\x20connection\x20with\x20the\x20use\x20of\x20this\x20script.\x20Any\x20such\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20information\x20will\x20be\x20handled\x20in\x20accordance\x20with\x20applicable\x20privacy\x20laws\x20and\x20the\x20author\x27s\x20privacy\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0xb7)),
+  document[_0xea7d43(0x86)](
+    "<p>*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20*</p>"
+  ),
+  document[_0xea7d43(0x86)](_0xea7d43(0x7a)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x72)),
+  document["write"](_0xea7d43(0x7b)),
+  document["write"](_0xea7d43(0x76)),
+  document[_0xea7d43(0x86)](_0xea7d43(0x97)),
+  document[_0xea7d43(0x86)](_0xea7d43(0xb2)),
+  (function () {
+    var _0x2355d8 = _0xea7d43,
+      _0x510183,
+      _0x11fe94,
+      _0x42687a = document,
+      _0x5680d8 = _0x2355d8(0xa9),
+      _0x4ece4d = "https://tars-file-upload.s3.amazonaws.com/bulb/";
+    !_0x42687a[_0x2355d8(0x9b)](_0x5680d8) &&
+      ((_0x510183 = _0x42687a[_0x2355d8(0x93)](_0x2355d8(0xb6))),
+      (_0x510183["id"] = _0x5680d8),
+      (_0x510183[_0x2355d8(0xa6)] = _0x2355d8(0xb5)),
+      (_0x510183[_0x2355d8(0xaa)] = _0x4ece4d + _0x2355d8(0x85)),
+      (_0x11fe94 = _0x42687a[_0x2355d8(0x7d)]("script")[0x0]),
+      _0x11fe94[_0x2355d8(0x89)][_0x2355d8(0x71)](_0x510183, _0x11fe94));
+  })(),
+  (window["tarsSettings"] = { convid: "25E8bl" });
